@@ -29,7 +29,7 @@ const Input = props => {
        isValid: false
     });
 
-    const { id onInput } = props;
+    const { id, onInput } = props;
     const { value, isValid } = inputState;
 
 
